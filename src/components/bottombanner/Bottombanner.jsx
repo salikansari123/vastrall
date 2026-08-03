@@ -4,7 +4,7 @@ import Mensimage from '../../assets/menswear-discount.jpg'
 
 const Bottombanner = () => {
   return (
-    <div>
+    <div className=''>
 
       <Allbanners  img={Mensimage} alt="mensimg" />
 

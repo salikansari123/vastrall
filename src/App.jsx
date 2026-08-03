@@ -22,7 +22,7 @@ const App = () => {
     }
   ];
   return (
-    <div className='bg-linear-to-r to-blue-300/50 from bg-slate-200'>
+    <div className='bg-linear-to-r to-blue-300/50 from bg-slate-200 font-sans'>
 
       <Navigation />
 

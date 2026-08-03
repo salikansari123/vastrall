@@ -10,7 +10,7 @@ const Lefttext = (props) => {
                     <h1 className="text-2xl leading-[1.2] font-bold font-serif-heading">
                         {props.title}
                     </h1>
-                    <h4 className="text-sm font-semibold leading-[1.4] text-slate-300">
+                    <h4 className="text-sm font-semibold leading-[1.4] text-slate-300 mr-10">
                         {props.description}
                     </h4>
                     <div className="pt-2">

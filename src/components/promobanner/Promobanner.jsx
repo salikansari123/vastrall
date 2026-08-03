@@ -13,7 +13,7 @@ const Promobanner = () => {
 
             <Trending img={Trendingimg} alt='Trendingimg' name='trending' />
 
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col gap-2 w-full">
 
                 <Newest img={Newestimg} alt='Newestimg' name='newest' />
 

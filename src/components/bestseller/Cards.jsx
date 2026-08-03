@@ -18,9 +18,9 @@ const Cards = (props) => {
           <h1>{props.name}</h1>
         </div>
 
-        <div className="flex text-white justify-between">
-          <h1 className='text-[10px] flex'><IndianRupee size={12} />{props.newprice} </h1>
-          <h1 className='text-[7px] flex line-through mt-1'><IndianRupee size={10} />{props.price}</h1>
+        <div className="flex text-white gap-2">
+          <h1 className='text-[12px] flex'><IndianRupee size={12} />{props.newprice} </h1>
+          <h1 className='text-[8px] flex line-through mt-1'><IndianRupee size={10} />{props.price}</h1>
         </div>
 
         <div className="flex gap-1 ml-1">
