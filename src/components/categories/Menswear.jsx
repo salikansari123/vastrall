@@ -10,7 +10,7 @@ const Menswear = (props) => {
 
         <Shirt size="40" className='text-[#0b407b] '/>
         <div className='border-b-2 mt-1 shadow-2xl min-w-20'></div>
-        <h1 className='font-semibold mt-1 text-[10px]'>Men's wear</h1>
+        <h1 className='font-semibold mt-1 text-[12px]'>Men's wear</h1>
 
       </a>
 

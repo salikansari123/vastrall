@@ -3,7 +3,7 @@ import {Truck, Lock, RefreshCcw,    Headset } from 'lucide-react'
 
 const Bedge = () => {
   return (
-    <div className='mx-auto py-5    '>
+    <div className='mx-auto py-5'>
         
          <div className="flex flex-col gap-3 px-5 ">
 

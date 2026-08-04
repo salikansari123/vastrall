@@ -19,7 +19,7 @@ const Categories = (props) => {
 
   return (
 
-    <div className='max-w-350 mt-10 mx-auto px-6 py-5 bg-slate-200 rounded-xl mb-10'>
+    <div className='max-w-350 mt-10 mx-auto px-4 py-5 bg-slate-200 rounded-xl mb-10'>
 
       <h2 className="text-xl font-semibold tracking-wide text-black mb-10 text-center">SHOP BY CATEGORIES</h2>
 
@@ -29,7 +29,7 @@ const Categories = (props) => {
 
           <Menswear {...props} />
           <Womenswear {...props} />
-          {/* <Kidswear {...props} /> */}
+          <Kidswear {...props} />
 
         </div>
 

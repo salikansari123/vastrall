@@ -9,7 +9,7 @@ const Womenswear = (props) => {
 
                 <Heart size="40" className='text-red-700 ' />
                 <div className='border-b-2 mt-1 shadow-2xl min-w-20'></div>
-                <h1 className='font-semibold mt-1 text-[10px]'>Women's wear</h1>
+                <h1 className='font-semibold mt-1 text-[11px]'>Women's wear</h1>
 
             </a>
 
