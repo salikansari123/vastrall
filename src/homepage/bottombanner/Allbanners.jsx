@@ -2,10 +2,10 @@ import React from 'react'
 
 const Allbanners = (props) => {
     return (
-        <div className='relative h-[30vh] rounded-xl my-5'>
+        <div className='relative h-[30vh] my-1'>
 
-                <img className='h-full w-full object-cover rounded-md' src={props.img} alt={props.alt} srcSet="" />
-                <div className="bg-[#07366d]/50 absolute inset-0 z-10"></div>
+                <img className='h-full w-full object-cover rounded-xl' src={props.img} alt={props.alt} srcSet="" />
+                <div className="bg-[#07366d]/50 absolute inset-0 z-10 rounded-xl"></div>
 
                 <div className="absolute z-20 inset-0 flex flex-col justify-center items-center text-white">
                     <h1 className={'font-bold text-xl'}>{props.discount}</h1>

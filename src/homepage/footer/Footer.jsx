@@ -10,38 +10,28 @@ import Bottomtext from './Bottomtext'
 
 const Footer = () => {
     return (
-        <div className='bg-[#3E92CC] mt-10 text-center'>
-
-            <div className="flex flex-col gap-10 items-center px-5 py-5">
-
+        <div className='mt-10 bg-[#0a2463] text-center'>
+            <div className='flex flex-col items-center gap-8 px-5 py-8 text-white'>
                 <Logo />
 
-                <h1 className='text-sm text-white text-center font-semibold'>Elevate your everyday style
-                    with Premium clothing for men, Women & Kids.</h1>
+                <h1 className='max-w-260px text-sm font-semibold leading-6 text-white/90'>
+                    Elevate your everyday style with Premium clothing for men, women & kids.
+                </h1>
 
                 <Icons />
 
-                <div className="flex gap-15">
-
+                <div className='flex w-full justify-between gap-8 px-1 text-left'>
                     <Shop />
-
                     <Customersupport />
-
                 </div>
 
                 <Bottomtext img1={paypalimg} img2={upiimg} img3={masterimg} />
-
             </div>
 
-
-            {/* copyright */}
-
-            <div className="text-[10px] bg-black text-white w-full p-1">
-                <h1 className=''>@ 2026 All Rights Reserved</h1>
+            <div className='w-full bg-black p-2 text-center text-[10px] text-white'>
+                <h1>@ 2026 All Rights Reserved</h1>
                 <h1>Crafted by Premium Fashion</h1>
             </div>
-
-
         </div>
     )
 }

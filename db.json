@@ -1,0 +1,82 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Men's Wear",
+            "icon": "shirt",
+            "image": "/images/categories/men.png"
+        },
+        {
+            "id": 2,
+            "name": "Women's Wear",
+            "icon": "heart",
+            "image": "/images/categories/women.png"
+        },
+        {
+            "id": 3,
+            "name": "Kid's Wear",
+            "icon": "baby",
+            "image": "/images/categories/kids.png"
+        }
+    ],
+
+    "bestSellers": [
+        {
+            "id": 101,
+            "title": "Cotton Hoodie",
+            "category": "Men's Wear",
+            "price": 1999,
+            "oldPrice": 2999,
+            "rating": 4.5,
+            "favorite": false,
+            "image": "/images/products/hoodie.png"
+        },
+        {
+            "id": 102,
+            "title": "Denim Jacket",
+            "category": "Men's Wear",
+            "price": 2999,
+            "oldPrice": 3999,
+            "rating": 4.6,
+            "favorite": true,
+            "image": "/images/products/denim.png"
+        },
+        {
+            "id": 103,
+            "title": "Fusion Kurti",
+            "category": "Women's Wear",
+            "price": 3999,
+            "oldPrice": 4999,
+            "rating": 4.8,
+            "favorite": false,
+            "image": "/images/products/kurti.png"
+        },
+        {
+            "id": 104,
+            "title": "Cotton Hoodie",
+            "category": "Men's Wear",
+            "price": 1999,
+            "oldPrice": 2999,
+            "rating": 4.5,
+            "favorite": false,
+            "image": "/images/products/hoodie.png"
+        }
+    ],
+    "trending": [
+        {
+            "id": 201,
+            "title": "Trending Collection",
+            "image": "/images/banners/trending.jpg"
+        },
+        {
+            "id": 202,
+            "title": "Newest Collection",
+            "image": "/images/banners/newest.jpg"
+        },
+        {
+            "id": 203,
+            "title": "Buy 1 Get 1 Free",
+            "image": "/images/banners/offer.jpg"
+        }
+    ]
+}
